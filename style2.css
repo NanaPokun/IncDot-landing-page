@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #101010;
+}
+
+/* this is where the navbar begins */
+
+.main-nav {
+    width: 100%;
+    height: 80px;
+    display: block;
+}
+
+.inner-nav {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100px;
+}
+
+.logo h1 span {
+    font-weight: 800px;
+}
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.nav a:last-child{
+    padding: right 0;
+}
+
+.nav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* this is where the navbar ends */
+
+/* main section begins here */
+.main-section, hr{
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    top: 50%;
+}
+
+section h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 80%;
+    position: relative;
+    display: inline-block;
+    /* left: 3.9em; */
+    /* top: 50%; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+section h2 span {
+    font-size: 80px;
+    font-weight: 85%; 
+}
+
+.services {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  
+  .jobd {
+    flex: 33.33%;
+    padding: 20px;
+  }
+  .jobd img { 
+    border: 5px solid white;
+  }
+  @media screen and (max-width: 500px) {
+    .jobd {
+      width: 100%;
+    }
+  }
+
+  .jobd {
+    position: relative;
+    width: 50%;
+  }
+  
+  .pict {
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+
+/* .intro p {
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 30%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+} */
+
+/* footer styling here */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
